@@ -1,22 +1,20 @@
 #!/usr/bin/env python3
 
-def isfib(a):
-    while fib <= a
-        If a == fib
-            
-    
-    pass
-
 def main():
-    limit = 1000
-              
-    a = sum(x for x in range(limit) if x % 2 == 0 and if x in fib)
-    print(a)
-    print(a)
-
-def fib(a):
+    limit = 4000000
     
-    return
+    fib = set()
+    a = 1
+    b = 1
+    
+    while a <= limit:
+        fib.add(a)
+        a, b = a+b, a
+    
+    print(fib)        
+              
+    a = sum(x for x in range(limit) if x % 2 == 0 and x in fib)
+    print(a)
 
 if __name__ == "__main__":
     main()
